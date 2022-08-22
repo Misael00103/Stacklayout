@@ -1,0 +1,15 @@
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\bin\Debug\netstandard2.0\Stacklayout.deps.json
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\bin\Debug\netstandard2.0\Stacklayout.dll
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\bin\Debug\netstandard2.0\Stacklayout.pdb
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.csproj.AssemblyReference.cache
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.AssemblyInfoInputs.cache
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.AssemblyInfo.cs
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.csproj.CoreCompileInputs.cache
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.dll
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\refint\Stacklayout.dll
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\Stacklayout.pdb
+C:\Users\Misael Beriguete\source\repos\Stacklayout\Stacklayout\Stacklayout\obj\Debug\netstandard2.0\ref\Stacklayout.dll

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stacklayout.MainPage">
+
+        <StackLayout>
+
+        <Frame BorderColor="Orange"
+               CornerRadius="10"
+               HasShadow="True"
+               BackgroundColor="#1B1464">
+            <Label Text="Programadores Famosos" FontSize="26" TextColor="White"  HorizontalTextAlignment="Center" />
+        </Frame>
+
+        <ScrollView Orientation="Both">
+
+            <FlexLayout>
+
+
+                <Frame WidthRequest="340"
+                   HeightRequest="600"
+                   >
+
+                    <FlexLayout Direction="Column">
+                        <Label Text="Guido van Rossum" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Guido Van Rossum es un informático, ​ conocido por ser el autor del lenguaje de Programación Python. Nació y creció en los Países Bajos el 31 de enero de 1956 (65 años)." FontFamily="25"/>
+                        <Label Text="  &#x2022; Hermanos: Just van Rossum" FontFamily="25"/>
+                        <Label Text="  &#x2022; Cónyuge: Kim Knapp (m. 2000)" FontFamily="25" />
+                        <Label Text="  &#x2022; Hijos: Orlijn Michiel Knapp-van Rossum" FontFamily="25"/>
+                        <Image Source="https://cms.qz.com/wp-content/uploads/2019/05/Guido-van-Rossum-e1558635088256.jpg"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas" Clicked="btnLeerMas_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="340"
+                   HeightRequest="600">
+
+                    <FlexLayout Direction="Column">
+                        <Label Text="Brendan Eich" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Brendan Eich es un programador estadounidense conocido por inventar el lenguaje de programación JavaScript. Nacimiento: 4 de julio de 1961 (edad 59 años), Pittsburgh, Pensilvania, Estados Unidos" FontFamily="25"/>
+                        <Label Text="  &#x2022; Cónyuge: Eleanor Eich" FontFamily="25"/>
+                        <Label Text="  &#x2022; Conocido por: Mozilla, Brave, JavaScript" FontFamily="25" />
+                        <Label Text="  &#x2022; Educación: Universidad de Illinois y  Santa Clara" FontFamily="25"/>
+                        <Image Source="https://upload.wikimedia.org/wikipedia/commons/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg"
+                           WidthRequest="160"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas1" Clicked="btnLeerMas1_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="600">
+                    <FlexLayout Direction="Column">
+                        <Label Text="Rasmus Lerdorf" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Rasmus Lerdorf es un programador informático nacido en Groenlandia creador de la primera versión del lenguaje de programación PHP, Nacimiento: 22 de noviembre de 1968 (edad 52 años),Qeqertarsuaq (Godhavn), Groenlandia" FontFamily="25"/>
+                        <Label Text="  &#x2022; Sitio web: www.mozilla.org" FontFamily="25"/>
+                        <Label Text="  &#x2022; CónyugeChristine" FontFamily="25" />
+                        <Label Text="  &#x2022; Educación: King City Secondary School, Universidad de Waterloo" FontFamily="25"/>
+                        <Image Source="https://uwaterloo.ca/engineering/sites/ca.engineering/files/uploads/images/rasmus_lerdorf_-_head_shot.jpg"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas2" Clicked="btnLeerMas2_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="600">
+                    <FlexLayout Direction="Column">
+                        <Label Text="Matt Mullenweg" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Matthew Charles Mullenweg es un programador estadounidense conocido por crear el sistema de gestión de contenido WordPress. Nacimiento: 11 de enero de 1984 (edad 37 años), Houston, Texas, Estados Unidos" FontFamily="25"/>
+                        <Label Text="  &#x2022; Conocido por: WordPress, Automattic" FontFamily="25"/>
+                        <Label Text="  &#x2022; Padres: Louis Charles y Kathleen Mullenweg" FontFamily="25" />
+                        <Label Text="  &#x2022; Educación: Universidad de Houston." FontFamily="25"/>
+                        <Image Source="https://cdn.facesofopensource.com/wp-content/uploads/2018/10/02182707/mm.mattmullenweg29772-1.jpg"
+                             WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas3" Clicked="btnLeerMas3_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="610">
+                    <FlexLayout Direction="Column">
+                        <Label Text="Tim Berners-Lee" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Timothy 'Tim' John Berners-Lee, conocido como Tim Berners-Lee, es un científico de la computación británico, conocido por ser el padre de la World Wide Web. " FontFamily="25"/>
+                        <Label Text="  &#x2022; Nacimiento: 8 de junio de 1955 (edad 65 años)" FontFamily="25"/>
+                        <Label Text="  &#x2022; Cónyuge: Rosemary Leith (m. 2014), Nancy Carlson (m. 1990–2011)" FontFamily="25" />
+                        <Label Text="  &#x2022; Hijos: Ben, Alice Berners-Lee" FontFamily="25"/>
+                        <Image Source="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas4" Clicked="btnLeerMas4_Clicked" />
+                    </FlexLayout>
+                </Frame>
+            </FlexLayout>
+        </ScrollView>
+
+    </StackLayout>
+        
+
+</ContentPage>
+
